@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#f4f6f9;
+    font-family:'Segoe UI',sans-serif;
+}
+
+.container{
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.login-box{
+    width:100%;
+    max-width:450px;
+}
+
+.card{
+    border:none;
+    border-radius:18px;
+}
+
+.card-body{
+    padding:40px;
+}
+
+.logo{
+    font-size:50px;
+    margin-bottom:10px;
+}
+
+h2{
+    color:#4f46e5;
+    font-weight:700;
+}
+
+.subtitle{
+    color:#6b7280;
+    margin-bottom:25px;
+}
+
+.form-control{
+    height:50px;
+    border-radius:10px;
+}
+
+.form-control:focus{
+    border-color:#4f46e5;
+    box-shadow:0 0 8px rgba(79,70,229,.25);
+}
+
+.btn-login{
+    height:50px;
+    border:none;
+    border-radius:10px;
+
+    background:#4f46e5;
+    color:white;
+
+    font-weight:600;
+}
+
+.btn-login:hover{
+    background:#4338ca;
+    color:white;
+}
+
+.register-link{
+    text-decoration:none;
+    color:#4f46e5;
+    font-weight:600;
+}
